@@ -9,7 +9,7 @@ clock = pg.time.Clock()
 screen = pg.display.set_mode((401,602))
 pg.display.set_caption("Space Shooter")
 
-#fuck mig
+#fuck mig i
 # Spaceship character
 ship_images = []
 for i in range(3):
