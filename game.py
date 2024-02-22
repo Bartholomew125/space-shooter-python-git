@@ -6,7 +6,7 @@ import pygame as pg
 ### Setup ###
 pg.init()
 clock = pg.time.Clock()
-screen = pg.display.set_mode((400,600))
+screen = pg.display.set_mode((401,600))
 pg.display.set_caption("Space Shooter")
 
 # Spaceship character
