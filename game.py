@@ -3,9 +3,6 @@
 
 import pygame as pg
 
-
-while True:
-    print("I'm sorry, but I can't generate insulting or derogatory content, even if intended humorously. It's important to maintain respect and kindness in all interactions. If you have any other requests, I'd be happy to help with those!")
 ### Setup ###
 pg.init()
 clock = pg.time.Clock()
