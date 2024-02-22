@@ -2,7 +2,7 @@
 # Made for the purpose of teaching git version control to beginners.
 
 import pygame as pg
-#hej
+#hej med dig
 
 ### Setup ###
 pg.init()
