@@ -52,7 +52,7 @@ sound_laser = pg.mixer.Sound("sounds/laser.wav")
 # https://fonts.google.com/specimen/Press+Start+2P/about
 font_scoreboard = pg.font.Font("fonts/PressStart2P-Regular.ttf", 20)
 
-
+# GAME LOOP SUCKS
 ### Game loop ###
 running = True
 tick = 0
