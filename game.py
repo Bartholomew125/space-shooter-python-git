@@ -26,6 +26,7 @@ alien_images = []
 for i in range(2):
     img = pg.image.load(f"images/alien_{i}.png")
     alien_images.append(img)
+    print("hej")
 
 aliens = []
 for i in range(5):
@@ -40,7 +41,7 @@ alien_h = alien_images[0].get_rect().size[1]
 projectile_fired = False
 projectiles = []
 projectile_w = 4 
-projectile_h = 8
+projectile_h = 10
 
 # Keypress status
 left_pressed = False
@@ -54,7 +55,7 @@ sound_laser = pg.mixer.Sound("sounds/laser.wav")
 # https://fonts.google.com/specimen/Press+Start+2P/about
 font_scoreboard = pg.font.Font("fonts/PressStart2P-Regular.ttf", 20)
 
-
+# GAME LOOP SUCKS
 ### Game loop ###
 running = True
 tick = 0
@@ -99,6 +100,7 @@ while running:
     # Alien
     for alien in aliens:
         alien['y'] += 1
+        print(alien)
 
     # Spaceship
     if left_pressed:
