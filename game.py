@@ -6,7 +6,6 @@ import pygame as pg
 ### Setup ###
 pg.init()
 clock = pg.time.Clock()
-print(":()")
 screen = pg.display.set_mode((400,600))
 pg.display.set_caption("Space Shooter")
 
