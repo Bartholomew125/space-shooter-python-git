@@ -7,7 +7,7 @@ import pygame as pg
 ### Setup ###
 pg.init()
 clock = pg.time.Clock()
-screen = pg.display.set_mode((401,602))
+screen = pg.display.set_mode((69,420))
 pg.display.set_caption("Space Shooter")
 
 #fuck mig i røv
