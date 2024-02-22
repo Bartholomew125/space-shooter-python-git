@@ -3,6 +3,8 @@
 
 import pygame as pg
 
+print("hej")
+
 ### Setup ###
 pg.init()
 clock = pg.time.Clock()
