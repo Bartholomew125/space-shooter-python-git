@@ -2,6 +2,7 @@
 # Made for the purpose of teaching git version control to beginners.
 
 import pygame as pg
+# the branch change
 
 ### Setup ###
 pg.init()
