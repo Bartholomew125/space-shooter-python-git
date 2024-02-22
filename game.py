@@ -97,6 +97,7 @@ while running:
     # Alien
     for alien in aliens:
         alien['y'] += 1
+        print(alien)
 
     # Spaceship
     if left_pressed:
