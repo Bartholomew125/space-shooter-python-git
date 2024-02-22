@@ -26,6 +26,7 @@ alien_images = []
 for i in range(2):
     img = pg.image.load(f"images/alien_{i}.png")
     alien_images.append(img)
+    print("hej")
 
 aliens = []
 for i in range(5):
