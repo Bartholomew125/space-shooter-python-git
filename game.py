@@ -2,7 +2,6 @@
 # Made for the purpose of teaching git version control to beginners.
 
 import pygame as pg
-import matplotlib.pyplot as plt
 
 ### Setup ###
 pg.init()
