@@ -2,6 +2,7 @@
 # Made for the purpose of teaching git version control to beginners.
 
 import pygame as pg
+import matplotlib.pyplot as plt
 
 ### Setup ###
 pg.init()
@@ -34,7 +35,9 @@ for i in range(5):
 
 alien_w = alien_images[0].get_rect().size[0]
 alien_h = alien_images[0].get_rect().size[1]
-#master
+while True:
+    print("-")
+    #useless#master
 # Projectiles 
 projectile_fired = False
 projectiles = []
