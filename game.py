@@ -38,7 +38,7 @@ alien_h = alien_images[0].get_rect().size[1]
 projectile_fired = False
 projectiles = []
 projectile_w = 4 
-projectile_h = 8
+projectile_h = 10
 
 # Keypress status
 left_pressed = False
