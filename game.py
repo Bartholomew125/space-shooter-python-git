@@ -2,12 +2,12 @@
 # Made for the purpose of teaching git version control to beginners.
 
 import pygame as pg
-#hej
+#hej med dig
 
 ### Setup ###
 pg.init()
 clock = pg.time.Clock()
-screen = pg.display.set_mode((69,420))
+screen = pg.display.set_mode((9000,420))
 pg.display.set_caption("Space Shooter")
 
 #fuck mig i røven
