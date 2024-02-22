@@ -2,6 +2,7 @@
 # Made for the purpose of teaching git version control to beginners.
 
 import pygame as pg
+#hej
 
 ### Setup ###
 pg.init()
@@ -9,6 +10,7 @@ clock = pg.time.Clock()
 screen = pg.display.set_mode((401,602))
 pg.display.set_caption("Space Shooter")
 
+#fuck mig i røv
 # Spaceship character
 ship_images = []
 for i in range(3):
@@ -39,7 +41,7 @@ alien_h = alien_images[0].get_rect().size[1]
 projectile_fired = False
 projectiles = []
 projectile_w = 4 
-projectile_h = 8
+projectile_h = 10
 
 # Keypress status
 left_pressed = False
@@ -98,6 +100,7 @@ while running:
     # Alien
     for alien in aliens:
         alien['y'] += 1
+        print(alien)
 
     # Spaceship
     if left_pressed:
