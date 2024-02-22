@@ -2,6 +2,9 @@
 # Made for the purpose of teaching git version control to beginners.
 
 import pygame as pg
+import matplotlib.pyplot as plt
+import tkinter
+import math
 
 ### Setup ###
 pg.init()
