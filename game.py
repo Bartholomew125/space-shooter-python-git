@@ -2,8 +2,12 @@
 # Made for the purpose of teaching git version control to beginners.
 
 import pygame as pg
+<<<<<<< HEAD
 
 #new chance
+=======
+# the branch change
+>>>>>>> fc2d535343da84bf344b49cfcc3e36bb36ed23e6
 
 ### Setup ###
 pg.init()
