@@ -3,6 +3,7 @@
 
 import pygame as pg
 import matplotlib.pyplot as plt
+import tkinter
 
 ### Setup ###
 pg.init()
